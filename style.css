@@ -1,0 +1,347 @@
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url("./images/Backgroung.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 690px;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+/* Headder section Strats Here */
+#HeaderSection {
+    color: white;
+    width: 100%;
+}
+
+#HeaderSection div h1 {
+    font-size: 17px;
+    margin: 15px 0px 0px 20px;
+}
+
+#HeaderSection div h1 span {
+    font-weight: 100;
+}
+
+#HeaderSection div {
+    display: inline-block;
+}
+
+#OptionDiv ul {
+    margin: 10px;
+}
+
+#OptionDiv ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+
+#OptionDiv {
+    float: right;
+}
+
+.fa-solid {
+    margin-right: 6px;
+    size: 2px;
+}
+
+#OptionDiv ul li:nth-child(2):hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#Signup {
+    border: 2px solid white;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+
+/* Body Section Starts Here */
+#BodySection {
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+#BodySection h1 {
+    font-size: 57px;
+}
+
+#BodySection p {
+    font-size: 22px;
+    margin-top: -28px;
+    margin-bottom: 30px;
+}
+
+#BodySection div button:nth-child(1) {
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    color: #666;
+    padding: 15px 70px;
+    font-size: 17px;
+}
+
+#BodySection div button:nth-child(2) {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.632);
+    padding: 15px 60px;
+    color: white;
+    margin-left: 27px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Descption Section Starts Here */
+#DescriptionSection {
+    width: 68%;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 155px;
+    background-color: white;
+}
+
+#DescriptionSection h1 {
+    width: 52%;
+    text-align: center;
+    margin: 0px auto;
+    color: #646464;
+    font-weight: 100;
+    font-size: 36px;
+    padding-top: 68px;
+    margin-bottom: 50px;
+}
+
+#DescriptionSection p {
+    width: 68%;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 22px;
+    padding: 35px 0px;
+    border-top: 2px solid #e5e5e5;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+#DescriptionSection img {
+    position: relative;
+    top: 5px;
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+}
+
+/* Icon Section Starts Here */
+#IconSection {
+    width: 68%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 44px;
+    border-radius: 10px;
+    text-align: center;
+    color: #646464;  
+}
+
+#IconDiv {
+    width: 49%;
+    display: inline-block;
+}
+
+#IconSection div h1 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#IconSection div p {
+    font-size: 18px;
+}
+
+.fa-bolt-lightning {
+    color: white;
+    background-color: #e89980;
+    border-radius: 100%;
+    padding: 30px 35px;
+    font-size: 45px;
+}
+
+.fa-chart-area {
+    color: white;
+    background-color: #7fcdb8;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 45px;
+}
+
+.fa-cloud {
+    color: white;
+    background-color: #90b0ba;
+    border-radius: 50%;
+    padding: 30px 25px;
+    font-size: 45px;
+}
+
+.fa-lock {
+    color: white;
+    background-color: #e5cb95;
+    border-radius: 50%;
+    padding: 30px 35px;
+    font-size: 45px;
+}
+
+#IconSection #IconDiv:nth-child(1) {
+    border-right: 2px solid #e5e5e5;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+#IconSection #IconDiv:nth-child(2) {
+    border-bottom: 2px solid #e5e5e5;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 500px;
+}
+
+#IconSection #IconDiv:nth-child(3) {
+    border-top: 2px solid #e5e5e5;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+#IconSection #IconDiv:nth-child(4) {
+    border-left: 2px solid #e5e5e5;
+    padding-top: 52px;
+    padding-bottom: 30px;
+    
+}
+/* ImageSection */
+#ImgSection{
+    width: 68%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+#ImgSection div {
+    width: 48%;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#ImgSection div:first-child {
+    margin-right: 38px; 
+}
+
+#ImgSection div img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#ImgSection div h1{
+    color: #646464;
+    font-weight: 100;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#ImgSection div p{
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+#ImgSection div button{
+    padding: 15px 30px;
+    font-size: medium;
+    background-color: transparent;
+    color: #646464;
+    border-radius: 10px;
+    border: 2px solid #e5e5e5;
+    margin-bottom: 50px;
+}
+
+/* Footer Section */
+#FooterSection{
+    margin-top: 100px;
+    text-align: center;  
+}
+
+#form{
+    width: 100%;
+    background-color: #e89980;
+    text-align: center;
+    color: #f9e6df;
+    padding: 50px 0px;
+}
+#form h1{
+    font-size: 40px;
+}
+#form p{
+    font-size: 20px;
+}
+#form form input[type="email"] {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    outline: none;
+    font-size: medium;
+    border-radius: 5px;
+    padding: 15px;
+    width: 250px;
+}
+#form form input[type="email"]::placeholder{
+    color: white;
+    font-weight:normal;
+    
+}
+#form form input[type="email"]:focus {
+    border: 2px solid white;
+}
+
+#form form input[type="submit"] {
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: medium;
+    background: #fff;
+    color: #e89980;
+    border: none;
+    margin-left: 10px;
+}
+
+#mediaIcon {
+    margin-top: 70px;
+}
+#mediaIcon li {
+    display: inline;
+    margin: 10px;
+}
+#mediaIcon li a{
+    color: #c6c6c6
+}
+#mediaIcon li a:hover{
+    color: #777;
+    transition: 0.2s ease-in;
+}
+#footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#footer li {
+    display: inline;
+    padding: 0 10px;
+}
+#footer li:nth-child(1) {
+    border-right: 1px dotted #c6c6c6;
+}
+#footer li:nth-child(2) {
+    border-right: 1px dotted #c6c6c6;
+}
+#footer li a{
+    color:#c6c6c6;
+    text-decoration: none;
+    border-bottom: 1px dotted #c6c6c6;
+}
